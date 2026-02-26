@@ -1,2 +1,6 @@
-console.error("Library not implemented.");
-process.exit(-1);
+import ValidationError from "./Validation/ValidationError";
+
+// Export the classes defined in the library
+export {
+  ValidationError
+};
