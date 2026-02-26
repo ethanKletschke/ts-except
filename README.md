@@ -1,5 +1,7 @@
 # ts-except
 
+[![Lint and Test](https://github.com/ethanKletschke/ts-except/actions/workflows/LintAndTest.yml/badge.svg)](https://github.com/ethanKletschke/ts-except/actions/workflows/LintAndTest.yml)
+
 A small TypeScript exception library.
 
 - Author: Ethan Kletschke
