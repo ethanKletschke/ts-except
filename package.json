@@ -1,0 +1,22 @@
+{
+  "name": "ts-except",
+  "version": "0.0.1",
+  "private": "true",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "mocha",
+    "compile": "npx tsc"
+  },
+  "author": "Ethan Kletschke",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^25.3.0",
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

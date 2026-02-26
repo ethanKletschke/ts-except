@@ -1,0 +1,36 @@
+# Project metadata for humans to read
+# Not used by the application at runtime
+
+project-meta:
+  project-name: ts-except
+  date-started: 2026-02-26
+  last-updated: 2026-02-26
+  languages:
+    - TypeScript
+  status: Experimental
+  license: MIT
+  version: 0.0.1
+
+build:
+  dev-environments:
+    - Windows 11
+  test-environments:
+    - Windows 11
+  target-platforms:
+    - Windows 11
+  compiler:
+    compiler-name: tsc
+    static-compiler: true
+    compiler-version: 5.9.3
+    compilation-process:
+      timing: JIT
+      output: Transpiled Source
+
+team:
+  author: Ethan Kletschke
+  owner: Ethan Kletschke
+  contributors:
+    - name: Ethan Kletschke
+      role: Author and Owner
+      github-username: ethanKletschke
+      website: https://ethankletschke.netlify.app/
