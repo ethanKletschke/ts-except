@@ -3,7 +3,7 @@
 A small TypeScript exception library.
 
 - Author: Ethan Kletschke
-- Version: `0.0.1`
+- Version: `0.0.2`
 - Developed on: Ubuntu (WSL2)
 - Target Environments:
   - Windows 11
