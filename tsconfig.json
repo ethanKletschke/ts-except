@@ -1,18 +1,18 @@
 {
-	"include": ["**/*.ts"],
-	"compilerOptions": {
-		"target": "es2022",
-		"module": "CommonJS",
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
-		"strict": true,
-		"skipLibCheck": true,
-		"outDir": "./dist",
-		"noImplicitOverride": true,
-		"rewriteRelativeImportExtensions": true,
-		"baseUrl": "./",
-		"paths": {
-			"@/*": ["src/*"]
-		}
-	}
+  "include": ["**/*.ts"],
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "noImplicitOverride": true,
+    "rewriteRelativeImportExtensions": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
 }
