@@ -13,11 +13,12 @@ project-meta:
 
 build:
   dev-environments:
-    - Windows 11
+    - Ubuntu (WSL2)
   test-environments:
-    - Windows 11
+    - Ubuntu (WSL2)
   target-platforms:
-    - Windows 11
+    - Linux
+    - Windows
   compiler:
     compiler-name: tsc
     compiler-version: 5.9.3
