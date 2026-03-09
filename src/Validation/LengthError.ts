@@ -1,7 +1,8 @@
 import ValidationError from "./ValidationError";
 
 /**
- * Thrown when a string's length doesn't match a given length.
+ * Thrown when a string's length doesn't match a given length
+ * requirement.
  *
  * @remarks
  * The `LengthError` class, which extends the `ValidationError`
