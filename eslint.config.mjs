@@ -3,6 +3,7 @@ import globals from "globals";
 import tseslint from "typescript-eslint";
 import chaiFriendly from "eslint-plugin-chai-friendly";
 import { defineConfig } from "eslint/config";
+import tsdoc from "eslint-plugin-tsdoc";
 
 export default defineConfig([
   {
@@ -12,8 +13,12 @@ export default defineConfig([
     },
     plugins: {
       js,
+      tsdoc
     },
     extends: ["js/recommended"],
+    rules: {
+      "tsdoc/syntax": "error"
+    }
   },
 
   tseslint.configs.recommended,
@@ -30,7 +35,7 @@ export default defineConfig([
     },
     rules: {
       "@typescript-eslint/no-unused-expressions": "off",
-      "chai-friendly/no-unused-expressions": "error",
+      "chai-friendly/no-unused-expressions": "error"
     },
   },
 ]);

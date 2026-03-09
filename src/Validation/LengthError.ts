@@ -1,5 +1,10 @@
 import ValidationError from "./ValidationError";
 
+/**
+ *
+ * @remarks
+ *
+ */
 export default class LengthError extends ValidationError {
   constructor(msg: string) {
     super(msg);

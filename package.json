@@ -21,6 +21,7 @@
     "chai": "^6.2.2",
     "eslint": "^10.0.2",
     "eslint-plugin-chai-friendly": "^1.1.0",
+    "eslint-plugin-tsdoc": "^0.5.2",
     "globals": "^17.3.0",
     "jiti": "^2.6.1",
     "mocha": "^11.7.5",
