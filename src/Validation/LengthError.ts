@@ -1,5 +1,7 @@
 import ValidationError from "./ValidationError";
 
+
+// TODO - Write unit tests for LengthError
 /**
  * Thrown when a string's length doesn't match a given length
  * requirement.
@@ -31,14 +33,33 @@ import ValidationError from "./ValidationError";
  */
 export default class LengthError extends ValidationError {
   constructor(msg: string) {
+    // Run the ValidationError constructor
     super(msg);
 
     this.name = "LengthError";
   }
 
+
+  /**
+   * An experimental static method checking the length of a provided string,
+   * and throwing a `LengthError` if it doesn't match the requirements.
+   *
+   * @remarks
+   * The method currently checks if the string's length is above the
+   * `maxLength` provided, although this is subject to change with the
+   * addition of a third parameter.
+   *
+   * @alpha
+   * @experimental
+   */
   static checkLen(toTest: string, maxLength: number) {
+    // TODO - Add "operator" string argument
+    // Compare the provided string's length to the provided max length
     if (toTest.length > maxLength) {
+      // Raise a new LengthError exception with a specified message
       throw new LengthError(`Length of string "${toTest}" is greater than ${maxLength}`);
     }
   }
+
+  // TODO - Add overridden "toString()" method
 }
