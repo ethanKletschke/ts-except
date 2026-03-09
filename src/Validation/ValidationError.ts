@@ -14,8 +14,18 @@ export default class ValidationError extends Error {
     super(msg);
 
     // Set the error's name for error output
-    this.name = "ValidationError";
+    this.name = "Validation Error";
   }
 
-  // TODO -> Add overridden toString method
+
+  /**
+   * Provides a string representation of a ValidationError.
+   *
+   * @remarks
+   * The `toString()` method represents a ValidationError object
+   * as a string, for more readable output.
+   */
+  override toString() {
+    return `${this.name}: ${this.message}`;
+  }
 }
