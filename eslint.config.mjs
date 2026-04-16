@@ -17,7 +17,8 @@ export default defineConfig([
     },
     extends: ["js/recommended"],
     rules: {
-      "tsdoc/syntax": "error"
+      "tsdoc/syntax": "error",
+      "@/semi": "error"
     }
   },
 
