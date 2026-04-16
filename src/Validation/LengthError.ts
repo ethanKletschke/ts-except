@@ -1,7 +1,5 @@
 import ValidationError from "./ValidationError";
 
-
-// TODO - Write unit tests for LengthError
 /**
  * Thrown when a string's length doesn't match a given length
  * requirement.
