@@ -61,5 +61,11 @@ export default class LengthError extends ValidationError {
     }
   }
 
-  // TODO - Add overridden "toString()" method
+  /**
+   * Provides a string representation of a LengthError.
+   * @returns A string in the format `ErrorName: Message`
+   */
+  override toString(): string {
+    return `${this.name}: ${this.message}`;
+  }
 }
